@@ -1,0 +1,36 @@
+
+.switch-container{
+  position: relative;
+  background-color: #c3c3c3;
+  display: flex;
+  width: 100px;
+  height: 35px;
+  border-radius: 50px;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  transition: all .4s cubic-bezier(.65,.05,.36,1);
+  cursor: pointer;
+}
+
+.switch-container:after{
+  content: '';
+  width: 50%;
+  border-radius: 50px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  background-color: #00aec7;
+  z-index: 1;
+}
+
+.switch-container.active:after{
+  left: 0%;
+}
+
+.switch-state{
+  display: inline-flex;
+  z-index: 2;
+}

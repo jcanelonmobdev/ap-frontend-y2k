@@ -1,0 +1,541 @@
+.familia-coberturas .dropdown-container .dropdown-title:after{
+  background: url(../img/sura-icon-arrow-down.svg) no-repeat center center;
+}
+
+.familia{
+  min-height: 100vh;
+}
+
+.familia-gestion {
+  padding: 2rem 4rem;
+}
+
+.d-inline-flex{
+  display: inline-flex;
+}
+
+.familia-gestion, .familia-forma-pago {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 2rem;
+  min-height: auto;
+  height: 410px;
+  position: relative;
+  padding: 4rem;
+  box-shadow: 0 15px 51px 0 rgba(0,45,84,.13);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.familia-gestion__comision, .familia-forma-pago__comision {
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+}
+
+.familia-gestion__comision-img, .familia-forma-pago__comision-img {
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.familia-gestion__comision-select, .familia-forma-pago__comision-select {
+  width: 50%;
+}
+
+.familia-gestion__detalle, .familia-forma-pago__detalle {
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 0px;
+  border-top: 1px solid #ededed;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.familia-gestion__title, .familia-forma-pago__title {
+  margin: 2rem 0;
+}
+
+.familia-gestion__comision-select .form-group, .familia-forma-pago__comision-select .form-group {
+  margin-bottom: 0;
+}
+
+.familia-gestion__comision-img p, .familia-forma-pago__comision-img p {
+  margin: 0 1rem;
+  font-weight: 700;
+}
+
+.familia p, .familia span, .familia li, .familia label {
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.familia-gestion__comision-select span, .familia-forma-pago__comision-select span {
+  margin: 0 1rem;
+}
+
+.align-items-center{
+  align-items: center
+}
+
+.flex-direction-column{
+  flex-direction: column;
+}
+
+@media screen and (min-width: 781px){
+  .justify-md-content{
+    justify-content: space-between;
+  }
+  
+  .d-md-flex {
+    display: flex;
+  }
+}
+
+.d-flex{
+  display: flex;
+}
+
+.justify-content-center{
+  justify-content:center;
+}
+
+@media screen and (max-width: 991px){
+  .familia-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.familia-forma-pago__cuotas {
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+.familia-forma-pago__detalle-primas p:nth-child(1) {
+  height: 55px;
+}
+
+.familia-forma-pago__detalle-uf {
+  height: 120px;
+}
+
+.familia-forma-pago__total {
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 10.5rem 2rem 6rem;
+  background-color: rgba(0,174,199,.1);
+  display: flex;
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+}
+
+.familia-forma-pago__total p:nth-child(1) {
+  color: #0033a0;
+}
+
+.familia-forma-pago__total p {
+  font-size: 18px;
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.box-precio-mensual__title{
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.box-precio-mensual__title h3{
+  background-color: white;
+  display: inline;
+  padding: 0px 16px;
+  position: relative;
+}
+
+.box-precio-mensual__title::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  top: calc(50%);
+  height: 3px;
+  background-color: #00aec7;
+  left: 0px;
+}
+
+.familia-forma-pago__cuotas .form-group{
+  margin-bottom: 15px;
+}
+
+.gray-box{
+  background-color: #ecf0f1;
+  padding: 10px 25px;
+  margin: -2rem auto 1rem;
+}
+
+.gray-box .box-precio-mensual__uf, p.box-precio-mensual__uf-diario{
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #a7acc3;
+}
+
+.m-0{
+  margin: 0px;
+}
+
+.familia-cotizacion-descarga-cotizacion__button .button-border--cyan{
+  background-color: transparent;
+  min-width: 280px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
+.familia-cotizacion-descarga-cotizacion__button .button img {
+  margin-right: 10px;
+}
+
+.button-border--cyan:hover{
+  color: #00aec7 !important;
+  border-color: #00aec7 !important;
+}
+
+.button-border--cyan{
+  background-color: transparent;
+}
+
+.familia-cotizacion-descarga-section{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.familia-email-sender{
+  justify-content: space-between;
+}
+
+.familia-email-sender .form-group{
+  margin-bottom: 0px;
+}
+
+.align-items-end{
+  align-items: flex-end;
+}
+
+.familia-email-sender .d-inline-flex{
+  align-items: flex-end;
+}
+
+.familia-email-sender .form-group input.form-control {
+  height: 48px !important;
+}
+
+.familia-email-sender .button-border--cyan{
+  margin: 0px;
+}
+
+.input-container{
+  position: relative;
+}
+
+.input-container .icon-img{
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  top: calc(50% - 12px);
+  left: 15px;
+}
+
+.text-white{
+  color: white !important;
+}
+
+.input-container.icon .form-control.icon{
+  padding-left: 50px;
+}
+
+.modal-body-content button.next{
+  max-width: 120px;
+  min-width: 120px;
+  height: 32px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 6px 0;
+  font-weight: 700;
+}
+
+.modal{
+  z-index: 99 !important;
+}
+
+.react-datepicker-popper{
+  z-index: 3 !important;
+}
+
+.react-datepicker-wrapper{
+  width: 100%;
+}
+
+.box-ciclos-icons {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 0;
+}
+
+.box-ciclos-icons-item {
+  flex-direction: column;
+  width: 100%;
+  max-width: 180px;
+  height: 145px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  transition: all .3s ease;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.box-ciclos-icons-item:hover, .box-ciclos-icons-item.active {
+  border: 1px solid #00aec7;
+  transition: all .3s ease;
+  box-shadow: 0 15px 51px 0 rgba(0,45,84,.13);
+}
+
+
+.box-ciclos-icons-item.active{
+  background-color: #ffff;
+}
+
+.box-ciclos-icons-item__title p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  color: #0033a0 !important;
+}
+
+.box-ciclos-icons-item__img {
+  height: 80px;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+.box-ciclos-icons-item__img img {
+  width: 100%;
+  max-width: 70px;
+}
+
+.box-ciclos__upload-input .close-right{
+  margin-left: 1rem;
+}
+
+.box-ciclos__upload-input .label-container{
+  color: #00aec7;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.credit-card {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 2rem 2rem 1.4rem;
+  max-width: 620px;
+  border-radius: 5px;
+  box-shadow: 0 15px 51px 0 rgba(0,45,84,.13);
+}
+
+.cpro-pago-card {
+  width: 100%;
+  align-items: flex-start;
+  max-width: 520px;
+}
+
+.cpro-pago {
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  padding: 3rem 1.5rem;
+}
+
+.credit-card-img-content .start {
+  justify-content: flex-start;
+}
+
+.ficha-ciclo__nombre-img {
+  justify-content: space-around;
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.alert.global{
+  width: 100%;
+  transition: all .4s;
+  position: fixed;
+  z-index: 50;
+}
+
+.alert {
+  color: #41464b;
+  background-color: #e2e3e5;
+  border-color: #d3d6d8;
+}
+
+.ficha-pago__img{
+  margin-left: 10px;
+}
+
+.react-datepicker_day, .react-datepickerday-name, .react-datepicker_time-name {   
+  width: 25px !important;   
+  line-height: 25px !important; 
+}
+
+.react-datepicker {    
+  font-size: 14px !important;   
+}
+
+.alert.info {
+  color: #084298;
+  background-color: #cfe2ff;
+  border-color: #b6d4fe;
+}
+
+.alert.warning {
+  color: #664d03;
+background-color: #fff3cd;
+border-color: #ffecb5;
+}
+
+.alert.error {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+
+.form-group-data{
+  width: 100%;
+}
+
+.form-group-data__rut{
+  width: calc(100% - 70px);
+}
+
+.download-table-xls-button{
+  background-color: #0e713b;
+  color: white;
+}
+
+.text-cropper{
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.table-header tr  {
+  white-space: nowrap;
+}
+
+.pdf-frame{
+  width: 100%;
+  height: 70vh;
+}
+
+.justify-content-end{
+  justify-content: end;
+}
+
+.input-modal-container .form-group{
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.link{
+  cursor: pointer;
+  color: #337ab7;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+.pagination li.selected a {
+  z-index: 2;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.f-16{
+  font-size: 16px;
+}
+
+.ufContainer{
+  margin-top: -30px;
+  margin-bottom: 8px;
+}
+
+.react-datepicker__header.react-datepicker__header--custom{
+  background-color: #00aec7 ;
+  padding: 7px 4px;
+  color:white;
+}
+
+.react-datepicker__header--custom select{
+  margin: 4px;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+
+.react-datepicker__header--custom select option{
+  color: gray;
+}
+
+.react-datepicker__day-names{
+  font-weight: bold;
+}
+
+.react-datepicker__day-names .react-datepicker__day-name{
+  color: white; 
+}
+
+.react-datepicker__month{
+  padding: 5px 0.4rem;
+}
+
+.react-datepicker__day-names, .react-datepicker__week{
+  margin: 2px 0px;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name{
+  margin: 0.4rem !important;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.align-item-center {
+  align-items: center
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
